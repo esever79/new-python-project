@@ -1,0 +1,12 @@
+import random
+
+while True:
+    rastgele_rakam = random.randint(0,10)                                  
+                                                                                                    
+    kullanıcı_rakam= int(input("RAKAMA GİRİNİZ!! (0,1,2..10):"))
+    if rastgele_rakam == kullanıcı_rakam:
+        print ("Tebrikler. BİLDİNİZ:)")
+    if not rastgele_rakam == kullanıcı_rakam: 
+        a=("rasgele_rakam" + str(rastgele_rakam) + "e eşitti. \n TEKRAR DENEYİNİZ:(")
+        print (a)
+        
