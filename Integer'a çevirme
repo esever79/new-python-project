@@ -1,0 +1,9 @@
+while True: 
+    def dene(typ, message):
+        try:
+            result = typ(message)
+            return True, result 
+        except:
+            return False, "Hatalı Input"
+
+    print(dene(int, input("lütfen bir integer giriniz:")))
