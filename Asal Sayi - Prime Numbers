@@ -1,0 +1,10 @@
+while True:
+    x = int(input("Sayı:"))
+
+    isAsalFlag = True
+
+    for i in range(2, x):
+        if(x % i == 0):
+            isAsalFlag = False
+
+    print("Asal mı?:", isAsalFlag
